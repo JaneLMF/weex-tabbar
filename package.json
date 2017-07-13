@@ -15,6 +15,9 @@
     "author": "",
     "license": "MIT",
     "dependencies": {
+        "@segment/to-iso-string": "^1.0.1",
+        "minimatch": "^3.0.4",
+        "pug": "^2.0.0-rc.2",
         "vue": "^2.1.8",
         "vue-router": "^2.1.1",
         "vuex": "^2.1.1",
