@@ -6,8 +6,8 @@
     "scripts": {
         "build": "webpack -w",
         "build_plugin": "webpack --config ./tools/webpack.config.plugin.js --color",
-        "dev": "webpack --watch & serve -p 12590",
-        "serve": "serve -p 12580"
+        "dev": "node build/init.js && webpack --watch & serve -p 12590",
+        "serve": "webpack-dev-server --config webpack.dev.js -p --open"
     },
     "keywords": [
         "weex"
