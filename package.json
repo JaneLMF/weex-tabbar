@@ -6,7 +6,7 @@
     "scripts": {
         "build": "webpack -w",
         "build_plugin": "webpack --config ./tools/webpack.config.plugin.js --color",
-        "dev": "weex-builder src dist -w",
+        "dev": "webpack --watch & serve -p 12590",
         "serve": "serve -p 12580"
     },
     "keywords": [

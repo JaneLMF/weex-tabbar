@@ -71,7 +71,7 @@ const webConfig = {
   context: pathTo.join(__dirname, ''),
   entry: entry,
   output: {
-    path: pathTo.join(__dirname, 'dist'),
+    path: pathTo.join(__dirname, 'dist', 'web'),
     filename: '[name].web.js',
   },
   module: {
@@ -97,7 +97,7 @@ const webConfig = {
 const weexConfig = {
   entry: weexEntry,
   output: {
-    path: pathTo.join(__dirname, 'dist'),
+    path: pathTo.join(__dirname, 'dist', 'native'),
     filename: '[name].js',
   },
   module: {
